@@ -4,7 +4,7 @@ import { View, Text, Button } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 import Login from "./Login";
-import Home from "./Home";
+import Home from "./Home1";
 import Header from "./Header";
 
 const Stack = createNativeStackNavigator();

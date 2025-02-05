@@ -2,28 +2,59 @@ import React from "react";
 import Nav from "./src/Components/Nav";
 import TabNav from "./src/Components/TabNavigation/TabNav";
 import TopTabNav from "./src/Components/TabNavigation/TopTabNavigation/TopTabNav";
-import Login1 from "./src/Components/Project1/Login1";
+import Login1 from "./src/Components/Project2/Login1";
 // import ApiTry from "./src/Components/TabNavigation/ApiTry";
 import ApiCall from "./src/Components/API/ApiCall";
 import ApiList from "./src/Components/API/ApiList";
 import ApiFlatList from "./src/Components/API/ApiFlatList";
-import UCampus from "./src/Components/Ucampus/UCampus";
+
 // import { Text } from "react-native-gesture-handler";/
 import {Text,View} from "react-native"
+import LinearBox from "./src/Components/Linera Gradient/LinearBox";
+import LinearBg from "./src/Components/Linera Gradient/LinearBg";
+import LinearText from "./src/Components/Linera Gradient/LinearText";
+import Ufini from "./src/Components/Ucampus/Ufini";
+import FCam from "./src/Components/Ucampus/FCam";
+import GestureHand from "./src/Components/Events & Listner Handling/GestureHand";
+import TouchEvent from "./src/Components/Events & Listner Handling/Hand Touching events/TouchEvent";
+
+import Async from "./src/Components/Async Storage/Async";
+import { DefaultTheme } from "@react-navigation/native";
+import { ScrollView } from "react-native-gesture-handler";
+import UCampus from "./src/Components/Project-UFood/UCampus";
+import Wish from "./src/Components/Project1/Wish";
+import Home from "./src/Components/Project2/Home";
+import LoginScreen from "./src/Components/Project2/LoginScreen";
 
 
 const App = () => {
   return(
     <>
+  
+
+    {/* <UCampus/> */}
+  
+
+    {/* <Async/> */}
+    
+    {/* <TouchEvent/> */}
+    {/* <GestureHand/> */}
+   
+    
+    
+    {/* <LinearText/> */}
+    {/* <LinearBg/> */}
+
+    {/* <LinearBox/> */}
     {/* <Text>hi</Text> */}
-   <UCampus/>
+   {/* <UCampus/> */}
     {/* <ApiFlatList/> */}
     {/* <ApiList/> */}
 {/* <ApiCall/> */}
     {/* <ApiTry/> */}
-    {/* <UCampus/> */}
+   
 
-{/* <Login1/> */}
+
     {/* <ApiCall/> */}
     {/* <TopTabNav/> */}
     {/* <TabNav/> */}

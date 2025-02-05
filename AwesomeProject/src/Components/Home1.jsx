@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-const Home = (props) => {
+const Home1 = (props) => {
     console.warn(props.route.params);
 
     const {name,age}=props.route.params;
@@ -19,4 +19,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default Home1;
